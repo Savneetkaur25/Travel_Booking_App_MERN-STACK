@@ -1,0 +1,39 @@
+# Ignore dependencies
+node_modules/
+package-lock.json
+
+# Ignore build and output folders
+.vscode/
+dist/
+build/
+
+# Ignore environment variables (Sensitive Information)
+.env
+
+# Ignore logs and temporary files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore backend specific files
+backend/node_modules/
+backend/.env
+backend/package-lock.json
+
+# Ignore frontend specific files
+frontend/node_modules/
+frontend/package-lock.json
+
+# Ignore compiled files (if using TypeScript)
+*.tsbuildinfo
+
+# Ignore editor or IDE settings
+.idea/
+*.swp
+*.swo
